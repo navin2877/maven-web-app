@@ -18,7 +18,7 @@ spec:
   spec: 
     containers:
     - name: mavenwebappcontainer
-      image: navin28/java-app
+      image: navin28/java-app:IMAGE_TAG
       imagePullPolicy: Always
       ports:
       - containerPort: 8080
